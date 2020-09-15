@@ -16,8 +16,8 @@ function _toConsumableArray(a) {
       return setInterval(function() {
         var a = document.getElementById("counter"),
         b = parseInt(a.innerText);
-        a.innerText = b+1},1e3)},
-        
+        a.innerText = b+1}, 1e3)},
+
         interval = timer(),
         minus = document.getElementById("minus"),
         plus = document.getElementById("plus"),
