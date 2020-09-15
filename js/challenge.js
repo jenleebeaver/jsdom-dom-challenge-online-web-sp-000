@@ -24,7 +24,7 @@ function _toConsumableArray(a) {
         heart = document.getElementById("heart"),
         pause = document.getElementById("pause"),
         commentForm = document.getElementsByTagName("form")[0];
-        
+
         minus.addEventListener("click", function() {
           var a = document.getElementById("counter"),
           b=parseInt(a.innerText);
