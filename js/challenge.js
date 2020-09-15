@@ -54,7 +54,8 @@ function _toConsumableArray(a) {
                 (d = document.createElement("li")).setAttribute("data-num", b),
                 d.innerHTML = b + " has been liked <span>1</span> time",
                 c.appendChild(d)}),
-                pause.addEventListener("click",
+                
+          pause.addEventListener("click",
                   function() {
                     playing ? (playing =! 1,
                       clearInterval(interval),
