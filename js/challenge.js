@@ -39,7 +39,7 @@ function _toConsumableArray(a) {
             b=parseInt(a.innerText);
             a.innerText=b+1
           }),
-          
+
         heart.addEventListener("click",function() {
               var a=document.getElementById("counter"),
               b = parseInt(a.innerText),
