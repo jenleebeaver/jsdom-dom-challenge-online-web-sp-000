@@ -40,7 +40,7 @@ function _toConsumableArray(a) {
             a.innerText=b+1
           }),
 
-//creating a like
+//creating a "like"
         heart.addEventListener("click",function() {
               var a=document.getElementById("counter"),
               b = parseInt(a.innerText),
