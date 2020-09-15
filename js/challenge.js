@@ -26,6 +26,7 @@ function _toConsumableArray(a) {
         pause = document.getElementById("pause"),
         commentForm = document.getElementsByTagName("form")[0];
 
+//subtracting a second from the timer
         minus.addEventListener("click", function() {
           var a = document.getElementById("counter"),
           b = parseInt(a.innerText);
