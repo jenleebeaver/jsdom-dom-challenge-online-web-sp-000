@@ -61,8 +61,7 @@ function _toConsumableArray(a) {
                     playing ? (playing =! 1,
                       clearInterval(interval),
                       this.innerText="resume") : (playing =! 0, interval = timer(), this.innerText="pause"),
-                [].concat(_toConsumableArray(document.getElementsByTagName("button"))).forEach(function(a){"pause"!==a.id&&(a.disabled=!playing)
-              })
+                [].concat(_toConsumableArray(document.getElementsByTagName("button"))).forEach(function(a){"pause"!==a.id&&(a.disabled=!playing)})
               }),
 
                 commentForm.addEventListener("submit", function(a) {a.preventDefault();
