@@ -49,7 +49,7 @@ function _toConsumableArray(a) {
               if ([].concat(_toConsumableArray(c.children)).map(function(a) {
                 return parseInt(a.dataset.num)}).includes(b)){d=document.querySelector('[data-num="'+b+'"]');
                 var e = parseInt(d.children[0].innerText);
-                d.innerHTML=b+" has been liked <span>"+(e+1)+"</span> times"}
+                d.innerHTML = b + " has been liked <span>" + (e+1) + "</span> times"}
               else
                 (d=document.createElement("li")).setAttribute("data-num",b),
                 d.innerHTML=b+" has been liked <span>1</span> time",
