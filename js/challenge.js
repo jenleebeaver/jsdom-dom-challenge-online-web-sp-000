@@ -40,12 +40,12 @@ function _toConsumableArray(a) {
             a.innerText=b+1
           }),
 
-//creating a "like"
+//creating a "like" for the second 
         heart.addEventListener("click",function() {
               var a = document.getElementById("counter"),
               b = parseInt(a.innerText),
-              c=document.querySelector(".likes"),
-              d=void 0;
+              c = document.querySelector(".likes"),
+              d = void 0;
               if ([].concat(_toConsumableArray(c.children)).map(function(a) {
                 return parseInt(a.dataset.num)}).includes(b)){d=document.querySelector('[data-num="'+b+'"]');
                 var e = parseInt(d.children[0].innerText);
