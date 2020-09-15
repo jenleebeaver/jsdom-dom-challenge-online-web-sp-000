@@ -18,7 +18,7 @@ function _toConsumableArray(a) {
         b = parseInt(a.innerText);
         a.innerText = b+1}, 1e3)},
 
-//grabbing html 
+//grabbing html
         interval = timer(),
         minus = document.getElementById("minus"),
         plus = document.getElementById("plus"),
