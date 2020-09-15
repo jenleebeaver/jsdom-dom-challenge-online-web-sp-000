@@ -54,7 +54,7 @@ function _toConsumableArray(a) {
                 [].concat(_toConsumableArray(document.getElementsByTagName("button"))).forEach(function(a){"pause"!==a.id&&(a.disabled=!playing)
               })
               }),
-              
+
                 commentForm.addEventListener("submit", function(a) {a.preventDefault();
                   var b = this.children[0],
                   c = b.value;
