@@ -33,6 +33,7 @@ function _toConsumableArray(a) {
           a.innerText = b-1
         }),
 
+//adding a second to the timer
         plus.addEventListener("click",function() {
             var a=document.getElementById("counter"),
             b=parseInt(a.innerText);
