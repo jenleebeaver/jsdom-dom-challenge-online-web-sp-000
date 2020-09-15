@@ -55,6 +55,7 @@ function _toConsumableArray(a) {
                 d.innerHTML = b + " has been liked <span>1</span> time",
                 c.appendChild(d)}),
 
+//pause seconds 
           pause.addEventListener("click",
                   function() {
                     playing ? (playing =! 1,
